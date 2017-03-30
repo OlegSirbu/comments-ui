@@ -1,0 +1,29 @@
+<div class="container home-container">
+	<div class="row">
+		<div>
+			{{$ctrl.commentsLength}} COMMENTS
+		</div>
+		<ul>
+			<li ng-repeat="comment in $ctrl.comments" class="wrap-comments">
+				<div>
+					{{comment[0].timeDay}}
+				</div>
+				<div ng-repeat="v in comment" class="wrap-container">
+					<div>
+					<span>
+						{{v.timeHours}}
+					</span>
+					<span>
+						{{v.fullName}}
+					</span>
+					<span>
+						{{v.text}}
+					</span>
+					</div>
+
+				</div>
+
+			</li>
+		</ul>
+	</div>
+</div>	

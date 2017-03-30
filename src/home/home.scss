@@ -1,0 +1,21 @@
+li{
+	list-style-type: none;
+}
+.wrap-container {
+	border: 1px solid #ddd;
+	border-bottom: none;
+	margin-left: 20px; }
+.wrap-container:last-child {
+	border-bottom: 1px solid #ddd;
+}
+.wrap-container span {
+	padding: 10px;
+	display: inline-block; }
+
+.wrap-container span:last-child {
+	float: right;
+	width: 50%;
+	border-left: 1px solid #ddd; }
+
+.wrap-comments {
+	margin: 20px 0; }
